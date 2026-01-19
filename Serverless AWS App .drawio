@@ -1,9 +1,55 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2">
   <diagram name="Page-1" id="9NVaEEVZH9iS2pZZOO0p">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pTAmDDAp3P53Pg752D07-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="640" width="950" x="90" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTAmDDAp3P53Pg752D07-6" edge="1" parent="1" source="pTAmDDAp3P53Pg752D07-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pTAmDDAp3P53Pg752D07-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTAmDDAp3P53Pg752D07-2" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="93" width="76.5" x="190" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="pTAmDDAp3P53Pg752D07-7" edge="1" parent="1" source="pTAmDDAp3P53Pg752D07-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pTAmDDAp3P53Pg752D07-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTAmDDAp3P53Pg752D07-8" edge="1" parent="1" source="pTAmDDAp3P53Pg752D07-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pTAmDDAp3P53Pg752D07-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTAmDDAp3P53Pg752D07-3" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="72" width="69" x="400" y="346.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pTAmDDAp3P53Pg752D07-4" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.dynamodb;" value="Amazon DynamoDB" vertex="1">
+          <mxGeometry height="110" width="80" x="610" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pTAmDDAp3P53Pg752D07-5" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="93" width="82.5" x="610" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="pTAmDDAp3P53Pg752D07-10" edge="1" parent="1" source="pTAmDDAp3P53Pg752D07-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pTAmDDAp3P53Pg752D07-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTAmDDAp3P53Pg752D07-9" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.users;fillColor=#D2D3D3;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="63" width="66" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="pTAmDDAp3P53Pg752D07-13" edge="1" parent="1" source="pTAmDDAp3P53Pg752D07-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="pTAmDDAp3P53Pg752D07-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="228" y="316" />
+              <mxPoint x="435" y="316" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTAmDDAp3P53Pg752D07-14" edge="1" parent="1" source="pTAmDDAp3P53Pg752D07-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="pTAmDDAp3P53Pg752D07-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="228" y="439" />
+              <mxPoint x="435" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
